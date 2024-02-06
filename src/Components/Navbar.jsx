@@ -58,7 +58,9 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <button className="btn text-whit">Payment</button>
+        <button className="hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white">
+          Payment
+        </button>
       </div>
     </div>
   );
