@@ -17,8 +17,8 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="shadow-md w-full sticky top-0 left-0 ">
-      <div className="md:flex items-center justify-between bg-[#24085c] h-24 py-4 px-6 lg:px-20 ">
+    <div className="shadow-md w-full sticky top-0 z-20 ">
+      <div className="md:flex items-center justify-between bg-gray-900  h-24 py-4 px-6 lg:px-20 ">
         {/* logo */}
         <Link to="/">
           <div
