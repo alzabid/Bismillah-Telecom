@@ -3,7 +3,7 @@ const Parallax = (props) => {
   return (
     <section className="h-full">
       <div className="h-[250px] lg:h-[400px] relative ">
-        <div className="absolute inset-0 hero-overlay z-10 bg-[#212122] opacity-70 "></div>
+        <div className="absolute inset-0 hero-overlay z-10 bg-[#212122] opacity-80 "></div>
         <img
           className="h-full w-full object-cover object-center"
           src={props.img}

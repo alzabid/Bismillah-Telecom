@@ -8,6 +8,7 @@ import Packages from "../Pages/Packages";
 import Services from "../Pages/Services";
 import Media from "../Pages/Media";
 import ErrorPage from "../Pages/ErrorPage";
+import Payment from "../Pages/Payment";
 
 const Routes = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const Routes = createBrowserRouter([
       {
         path: "/media",
         element: <Media />,
+      },
+      {
+        path: "/payment",
+        element: <Payment />,
       },
       // {
       //   path: "login",

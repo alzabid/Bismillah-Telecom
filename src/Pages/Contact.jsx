@@ -159,12 +159,12 @@ const Contact = () => {
           <div className=" max-w-7xl mx-auto px-6 pb-40">
             <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center rounded-md overflow-hidden bg-white shadow-xl">
               {/* Map */}
-              <div className="col-span-1 h-72 lg:h-full relative order-2 lg:order-1">
+              <div className="col-span-1 h-72 lg:pl-5 lg:h-full relative order-2 lg:order-1">
                 <div className="flex justify-center lg:pb-5 ">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467420.3030962046!2d90.12035070011363!3d23.75732241499096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b7de0e452d%3A0xeec73914cc53b887!2sCity%20College%20Bus%20Stop!5e0!3m2!1sen!2sbd!4v1705582640087!5m2!1sen!2sbd"
                     width="600"
-                    height="600"
+                    height="650"
                     style={{ border: 0 }}
                     allowfullscreen=""
                     loading="lazy"
@@ -176,8 +176,9 @@ const Contact = () => {
               {/* feedback */}
               <div className="col-span-1 md:px-10 order-1 lg:order-2">
                 <div className=" bg-white rounded-2xl p-5 flex flex-col">
-                  <div className="title text-4xl font-semibold text-center pb-5">
-                    Send us your <span className="text-cyan-500">Feedback</span>
+                  <div className="title text-4xl font-bold text-center pb-5">
+                    Send us your{" "}
+                    <span className="text-fuchsia-700">Feedback</span>
                   </div>
                   <div className="form mt-4 flex flex-col">
                     <div className="group relative ">

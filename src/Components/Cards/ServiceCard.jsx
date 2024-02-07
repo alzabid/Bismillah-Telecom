@@ -2,7 +2,7 @@ import Heading from "../Heading";
 
 const ServiceCard = () => {
   return (
-    <section className="py-20 lg:py-32">
+    <section className="bg-gray-100 px-6 py-20 lg:py-32">
       <div className="max-w-7xl mx-auto space-y-10 lg:space-y-20" id="services">
         <Heading
           title="Our Service"

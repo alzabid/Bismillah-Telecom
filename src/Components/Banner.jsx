@@ -31,25 +31,13 @@ const Banner = () => {
       className=""
     >
       <SwiperSlide>
-        <img
-          className="h-[90%]"
-          src="https://xplorenetbd.com/uploads/sliders/background/ZSb47ItorSCnUxWVy2Rnwbkl9G4zERe34x5qy4lZ.jpg"
-          alt=""
-        />
+        <img className="h-[90%]" src="./img/banner1.jpg" alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img
-          className="h-[90%]"
-          src="https://xplorenetbd.com/uploads/sliders/background/ZSb47ItorSCnUxWVy2Rnwbkl9G4zERe34x5qy4lZ.jpg"
-          alt=""
-        />
+        <img className="h-[90%]" src="./img/banner1.jpg" alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img
-          className="h-[90%]"
-          src="https://xplorenetbd.com/uploads/sliders/background/ZSb47ItorSCnUxWVy2Rnwbkl9G4zERe34x5qy4lZ.jpg"
-          alt=""
-        />
+        <img className="h-[90%]" src="./img/banner1.jpg" alt="" />
       </SwiperSlide>
     </Swiper>
   );

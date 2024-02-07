@@ -41,9 +41,9 @@ const Services = () => {
                   uploading and downloading, No customer premise equipment
                   required. Plug us right into your gear never worry about data
                   overages Every day more and more businesses are choosing
-                  XploreNet. We are dedicated to giving everyone in our
+                  Bismillah Talecom. We are dedicated to giving everyone in our
                   ever-expanding network area an experience and service they can
-                  count on. It simply doesn't get better than XploreNet.
+                  count on. It simply doesn't get better than Bismillah Talecom.
                 </p>
               </div>
             </div>
@@ -62,7 +62,7 @@ const Services = () => {
                   <span className="text-secondary-700">Solutions</span>
                 </h2>
                 <p className="text-base font-normal text-gray-700 text-justify lg:text-left">
-                  XploreNet understands your business needs by building a robust
+                  Bismillah Talecom understands your business needs by building a robust
                   network infrastructure. A strong network infrastructure plays
                   a significant role in supporting a variety of client
                   applications in a mission critical environment across

@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div className="shadow-md w-full sticky top-0 z-20 ">
-      <div className="lg:flex items-center justify-between bg-[#160052] h-24 py-4 px-6 lg:px-20 ">
+      <div className="lg:flex items-center justify-between bg-gray-900 h-20 py-4 px-6 lg:px-20 ">
         {/* logo */}
         <Link to="/">
           <div
@@ -55,16 +55,18 @@ const Navbar = () => {
             <li key={link.name} className="lg:ml-8 text-xl lg:my-0 my-7">
               <a
                 href={link.link}
-                className="text-white hover:text-amber-600 duration-500"
+                className="text-white hover:text-orange-500 duration-500"
               >
                 {link.name}
               </a>
             </li>
           ))}
           {/* button */}
-          <button className="lg:ml-8 hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white">
-            Payment
-          </button>
+          <Link to="/payment">
+            <button className="lg:ml-8 hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white">
+              Payment
+            </button>
+          </Link>
         </ul>
       </div>
     </div>

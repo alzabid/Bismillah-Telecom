@@ -13,18 +13,18 @@ const Footer = () => {
             className="bg-gray-800 bg-opacity-95 relative h-full w-full"
             id="footer"
           >
-            <div className=" mx-20">
+            <div className=" px-6 md:mx-20">
               <div className="grid grid-cols-1 lg:grid-cols-7 gap-4 lg:gap-16 mb-10 relative z-10">
                 <div className="col-span-1 lg:col-span-2 footer-items">
-                  <div className="bg-gray-600 rounded-2xl shadow-xl px-8 py-16 space-y-4 -mt-20 z-20 relative">
+                  <div className="bg-gray-900 rounded-2xl shadow-xl px-8 py-16 space-y-4 -mt-20 z-20 relative">
                     <img
                       className="max-h-[12rem] w-full"
                       src="/img/logo.png"
                       alt=""
                     />
                     <p className="text-content !text-gray-400">
-                      Xplore Net BD offers an array of services with high speed
-                      internet solution for corporate and home uses.
+                      Bismillah Telecom offers an array of services with high
+                      speed internet solution for corporate and home uses.
                     </p>
                     <div className="flex gap-4 text-white">
                       <MdOutlineLocationOn />
