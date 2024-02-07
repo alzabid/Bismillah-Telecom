@@ -3,7 +3,7 @@ import Heading from "../Heading";
 
 const PackageCard = () => {
   return (
-    <section className="bg-gray-100 pt-40 lg:py-40">
+    <section className="bg-gray-100 pt-40 lg:py-20">
       <div className="default-container" id="choose-plan">
         <Heading
           title="OUR PACKAGES"

@@ -290,7 +290,7 @@ const Footer = () => {
               <div className="py-6 border-t border-gray-500 flex flex-col lg:flex-row justify-between lg:items-center gap-4 footer-items">
                 <div>
                   <p className="text-white">
-                    XPLORENET Inertnet Service Provider
+                    Bismillah Telecom Inertnet Service Provider
                   </p>
                 </div>
                 <div>
