@@ -1,5 +1,6 @@
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
 import Heading from "../Heading";
+import { Link } from "react-router-dom";
 
 const PackageCard = () => {
   return (
@@ -241,9 +242,11 @@ const PackageCard = () => {
         </div>
 
         <div className="mt-10 text-center">
-          <button className="lg:ml-8 hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white">
-            See All
-          </button>
+          <Link to="/packages">
+            <button className="lg:ml-8 hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white">
+              See All
+            </button>
+          </Link>
         </div>
       </div>
     </section>
