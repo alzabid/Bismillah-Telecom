@@ -163,7 +163,7 @@ const Footer = () => {
                       <ul className="flex gap-2 lg:gap-6">
                         <li>
                           <a
-                            className="block h-10 w-10 p-2 rounded-full bg-primary text-white hover:text-primary hover:bg-white transition-all duration-300 hover:scale-90"
+                            className="block h-10 w-10 p-2 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white hover:text-primary hover:bg-white transition-all duration-300 hover:scale-90"
                             href="/"
                           >
                             <svg
@@ -187,7 +187,7 @@ const Footer = () => {
                         </li>
                         <li>
                           <a
-                            className="block h-10 w-10 p-2 rounded-full bg-primary text-white hover:text-primary hover:bg-white transition-all duration-300 hover:scale-90"
+                            className="block h-10 w-10 p-2 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white hover:text-primary hover:bg-white transition-all duration-300 hover:scale-90"
                             href="/"
                           >
                             <svg
@@ -211,7 +211,7 @@ const Footer = () => {
                         </li>
                         <li>
                           <a
-                            className="block h-10 w-10 p-2 rounded-full bg-primary text-white hover:text-primary hover:bg-white transition-all duration-300 hover:scale-90"
+                            className="block h-10 w-10 p-2 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white hover:text-primary hover:bg-white transition-all duration-300 hover:scale-90"
                             href="/"
                           >
                             <svg
@@ -248,7 +248,7 @@ const Footer = () => {
                         </li>
                         <li>
                           <a
-                            className="block h-10 w-10 p-2 rounded-full bg-primary text-white hover:text-primary hover:bg-white transition-all duration-300 hover:scale-90"
+                            className="block h-10 w-10 p-2 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white hover:text-primary hover:bg-white transition-all duration-300 hover:scale-90"
                             href="/"
                           >
                             <svg

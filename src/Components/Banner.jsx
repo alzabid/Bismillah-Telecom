@@ -32,19 +32,22 @@ const Banner = () => {
     >
       <SwiperSlide>
         <img
+          className="h-[90%]"
           src="https://xplorenetbd.com/uploads/sliders/background/ZSb47ItorSCnUxWVy2Rnwbkl9G4zERe34x5qy4lZ.jpg"
           alt=""
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
-          src="https://xplorenetbd.com/uploads/sliders/background/8RDeY7Rca2uSgYE3wqTzs0qfwnX6zKn6KMWJu7Hh.jpg"
+          className="h-[90%]"
+          src="https://xplorenetbd.com/uploads/sliders/background/ZSb47ItorSCnUxWVy2Rnwbkl9G4zERe34x5qy4lZ.jpg"
           alt=""
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
-          src="https://xplorenetbd.com/uploads/sliders/background/xQ53fkYxnnVdlRGeuc7vgl9vVaoZGyimZGVPn5au.jpg"
+          className="h-[90%]"
+          src="https://xplorenetbd.com/uploads/sliders/background/ZSb47ItorSCnUxWVy2Rnwbkl9G4zERe34x5qy4lZ.jpg"
           alt=""
         />
       </SwiperSlide>

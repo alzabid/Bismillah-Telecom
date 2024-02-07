@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div className="shadow-md w-full sticky top-0 z-20 ">
-      <div className="md:flex items-center justify-between bg-gray-900  h-24 py-4 px-6 lg:px-20 ">
+      <div className="lg:flex items-center justify-between bg-[#1d0847]  h-24 py-4 px-6 lg:px-20 ">
         {/* logo */}
         <Link to="/">
           <div
@@ -35,20 +35,24 @@ const Navbar = () => {
         {/* open or close icon */}
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
+          className="text-3xl absolute right-8 top-6 cursor-pointer lg:hidden"
         >
-          {open ? <CgMenuMotion /> : <RiMenuAddLine />}
+          {open ? (
+            <CgMenuMotion className="text-white" />
+          ) : (
+            <RiMenuAddLine className="text-white" />
+          )}
         </div>
 
         {/* Navlinks */}
 
         <ul
-          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
-            open ? "top-20 " : "top-[-490px]"
+          className={` lg:flex lg:items-center lg:pb-0 pb-12 absolute lg:static  lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in ${
+            open ? "top-20 bg-black " : "top-[-490px]"
           }`}
         >
           {Links.map((link) => (
-            <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
+            <li key={link.name} className="lg:ml-8 text-xl lg:my-0 my-7">
               <a
                 href={link.link}
                 className="text-white hover:text-amber-600 duration-500"
@@ -57,10 +61,11 @@ const Navbar = () => {
               </a>
             </li>
           ))}
+            {/* button */}
+          <button className="lg:ml-8 hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white">
+            Payment
+          </button>
         </ul>
-        <button className="hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white">
-          Payment
-        </button>
       </div>
     </div>
   );
