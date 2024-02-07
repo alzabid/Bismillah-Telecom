@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div className="shadow-md w-full sticky top-0 z-20 ">
-      <div className="lg:flex items-center justify-between bg-[#1d0847]  h-24 py-4 px-6 lg:px-20 ">
+      <div className="lg:flex items-center justify-between bg-[#160052] h-24 py-4 px-6 lg:px-20 ">
         {/* logo */}
         <Link to="/">
           <div
@@ -61,7 +61,7 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-            {/* button */}
+          {/* button */}
           <button className="lg:ml-8 hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white">
             Payment
           </button>

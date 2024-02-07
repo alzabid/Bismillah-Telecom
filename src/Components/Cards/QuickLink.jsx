@@ -3,7 +3,7 @@ import Heading from "../Heading";
 const QuickLink = () => {
   return (
     <div className="bg-gray-100">
-      <div className="  max-w-[1400px]  mx-auto px-6">
+      <div className="  max-w-7xl  mx-auto px-6">
         <Heading title="Quick Links" />
         <div className=" pb-28 pt-28 lg:pt-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 lg:gap-12 lg:h-[360px]">

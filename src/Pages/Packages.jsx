@@ -1,11 +1,11 @@
 import Parallax from "../Components/Parallax";
-import photo from "../../public/img/packages.jpeg";
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
+import photo from "../../public/img/packages.jpeg";
 
 const Packages = () => {
   return (
     <div>
-      <main className="overflow-hidden bg-base-200">
+      <main className="overflow-hidden bg-base-200 px-6">
         {/* parallax */}
         <Parallax
           img={photo}
