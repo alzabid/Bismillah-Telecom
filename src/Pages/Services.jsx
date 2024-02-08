@@ -1,4 +1,3 @@
-
 import Parallax from "../Components/Parallax";
 import photo from "../../public/img/packages.jpeg";
 
@@ -14,13 +13,13 @@ const Services = () => {
                 network in Dhaka Bangladesh."
         />
 
-        <section className="relative overflow-hidden pt-10 pb-28 lg:pt-20 lg:pb-40">
+        <section className="relative overflow-hidden px-6 pt-10 pb-28 lg:pt-20 lg:pb-40">
           <div
             className="max-w-[1300px] mx-auto space-y-16 lg:space-y-28"
             id="services"
           >
             <div className="relative h-auto xl:h-[367px]" id="services-one">
-              <div className="h-32 md:h-44 lg:h-72 w-3/5 lg:w-2/5 mx-auto bg-gray-200 rounded-xl overflow-hidden lg:absolute top-12 left-0 flex flex-col justify-center items-center">
+              <div className=" lg:h-72 w-[80%] lg:w-2/5 mx-auto bg-gray-200 rounded-xl overflow-hidden lg:absolute top-12 left-0 flex flex-col justify-center items-center">
                 <img
                   className="h-full w-full"
                   src="./img/broadband.webp"
@@ -49,7 +48,7 @@ const Services = () => {
             </div>
 
             <div className="relative h-auto xl:h-[367px]" id="services-two">
-              <div className="h-32 md:h-44 lg:h-72 w-3/5 lg:w-2/5 mx-auto bg-gray-200 rounded-xl overflow-hidden lg:absolute top-12 right-0 flex flex-col justify-center items-center">
+              <div className=" h-44 md:h-80 lg:h-72 w-[80%] lg:w-2/5 mx-auto bg-gray-200 rounded-xl overflow-hidden lg:absolute top-12 right-0 flex flex-col justify-center items-center">
                 <img
                   className="h-full w-full"
                   src="./img/networking-solution.webp"
@@ -62,11 +61,11 @@ const Services = () => {
                   <span className="text-secondary-700">Solutions</span>
                 </h2>
                 <p className="text-base font-normal text-gray-700 text-justify lg:text-left">
-                  Bismillah Talecom understands your business needs by building a robust
-                  network infrastructure. A strong network infrastructure plays
-                  a significant role in supporting a variety of client
-                  applications in a mission critical environment across
-                  verticals.
+                  Bismillah Talecom understands your business needs by building
+                  a robust network infrastructure. A strong network
+                  infrastructure plays a significant role in supporting a
+                  variety of client applications in a mission critical
+                  environment across verticals.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex gap-3">
@@ -150,7 +149,7 @@ const Services = () => {
             </div>
 
             <div className="relative h-auto xl:h-[367px]" id="services-three">
-              <div className="h-32 md:h-44 lg:h-72 w-3/5 lg:w-2/5 mx-auto bg-gray-200 rounded-xl overflow-hidden lg:absolute top-12 left-0 flex flex-col justify-center items-center">
+              <div className=" md:h-80 lg:h-72 w-[80%] lg:w-2/5 mx-auto bg-gray-200 rounded-xl overflow-hidden lg:absolute top-12 left-0 flex flex-col justify-center items-center">
                 <img
                   className="h-full w-full"
                   src="./img/cctv-solution.webp"
@@ -213,7 +212,7 @@ const Services = () => {
             </div>
 
             <div className="relative h-auto xl:h-[367px]" id="services-four">
-              <div className="h-32 md:h-44 lg:h-72 w-3/5 lg:w-2/5 mx-auto bg-gray-200 rounded-xl overflow-hidden lg:absolute top-12 right-0 flex flex-col justify-center items-center">
+              <div className=" lg:h-72 w-[80%] lg:w-2/5 mx-auto bg-gray-200 rounded-xl overflow-hidden lg:absolute top-12 right-0 flex flex-col justify-center items-center">
                 <img
                   className="h-full w-full"
                   src="./img/web-solution.webp"

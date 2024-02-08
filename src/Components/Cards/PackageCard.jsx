@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const PackageCard = () => {
   return (
-    <section className="bg-gray-100 pt-40 py-12 lg:py-20">
+    <section className="bg-gray-100 px-6 pt-40 py-12 lg:py-20">
       <div className="default-container" id="choose-plan">
         <Heading
           title="OUR PACKAGES"
@@ -14,7 +14,7 @@ const PackageCard = () => {
           speed. From broadband Internet to Networking Solution. we’ll have your
           business online in no time."
         />
-        <div className=" max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-8 md:gap-y-32 gap-32 lg:gap-8 px-6  mt-28 lg:mt-40">
+        <div className=" max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-8 md:gap-y-32 gap-32 lg:gap-8  mt-28 lg:mt-40">
           <div className="col-span-1 plan-pricing">
             <div className="bg-white shadow-lg rounded-lg lg:px-16 pb-10 lg:pb-16 relative">
               <div className="space-y-6 font-inter flex flex-col items-center justify-center">

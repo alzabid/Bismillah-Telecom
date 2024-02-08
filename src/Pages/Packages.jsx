@@ -5,14 +5,14 @@ import photo from "../../public/img/packages.jpeg";
 const Packages = () => {
   return (
     <div>
-      <main className="overflow-hidden bg-base-200 px-6">
+      <main className="overflow-hidden bg-base-200 ">
         {/* parallax */}
         <Parallax
           img={photo}
           title="Package Plan"
           text="Pay by month or the year, and cancel at any time."
         />
-        <section className="relative overflow-hidden py-28 lg:py-40">
+        <section className="relative overflow-hidden py-28 px-6 lg:py-40">
           <div className="max-w-7xl mx-auto" id="pricing">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-8 gap-y-28 md:gap-y-32">
               <div className="col-span-1 pricing-item">
