@@ -1,10 +1,11 @@
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
+import { LuExternalLink } from "react-icons/lu";
 import Heading from "../Heading";
 import { Link } from "react-router-dom";
 
 const PackageCard = () => {
   return (
-    <section className="bg-gray-100 pt-40 lg:py-20">
+    <section className="bg-gray-100 pt-40 py-12 lg:py-20">
       <div className="default-container" id="choose-plan">
         <Heading
           title="OUR PACKAGES"
@@ -241,10 +242,10 @@ const PackageCard = () => {
           </div>
         </div>
 
-        <div className="mt-10 text-center">
+        <div className="mt-10 flex justify-center items-center">
           <Link to="/packages">
-            <button className="lg:ml-8 hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white">
-              See All
+            <button className=" flex gap-3 justify-center items-center lg:ml-8 hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white">
+              See All <LuExternalLink />
             </button>
           </Link>
         </div>

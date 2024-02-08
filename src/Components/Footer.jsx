@@ -19,7 +19,7 @@ const Footer = () => {
                   <div className="bg-gray-900 rounded-2xl shadow-xl px-8 py-16 space-y-4 -mt-20 z-20 relative">
                     <img
                       className="max-h-[12rem] w-full"
-                      src="/img/logo.png"
+                      src="/img/logo2.png"
                       alt=""
                     />
                     <p className="text-content !text-gray-400">
@@ -34,7 +34,7 @@ const Footer = () => {
                     </div>
                     <div className="flex gap-4 text-white">
                       <MdOutlineEmail />
-                      <p className="text-content">xplorenet1@gmail.com</p>
+                      <p className="text-content">Bismillahtelecom@gmail.com</p>
                     </div>
                     <div className="flex gap-4 text-white">
                       <FiPhone />
