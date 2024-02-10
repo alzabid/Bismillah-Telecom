@@ -27,18 +27,20 @@ const Footer = () => {
                       speed internet solution for corporate and home uses.
                     </p>
                     <div className="flex gap-4 text-white">
-                      <MdOutlineLocationOn />
+                      <MdOutlineLocationOn className="text-xl" />
                       <p className="text-content">
-                        29, Alta Plaze, House # 01,Road # 10, Dhanmondi,Dhaka
+                        চ-৬৬, উত্তর বাড্ডা,গুলশান-১২১২
                       </p>
                     </div>
                     <div className="flex gap-4 text-white">
                       <MdOutlineEmail />
-                      <p className="text-content">Bismillahtelecom@gmail.com</p>
+                      <p className="text-content">
+                        bismillahtelecom10@gmail.com
+                      </p>
                     </div>
                     <div className="flex gap-4 text-white">
                       <FiPhone />
-                      <p className="text-content">+8801958404404</p>
+                      <p className="text-content">+8801645756860</p>
                     </div>
                   </div>
                 </div>

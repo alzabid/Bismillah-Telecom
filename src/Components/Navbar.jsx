@@ -9,11 +9,11 @@ const Navbar = () => {
   let Links = [
     { name: "Home", link: "/" },
     { name: "Our Services", link: "/services" },
-    { name: "Media", link: "/media" },
     { name: "Areas", link: "/area" },
+    { name: "Media", link: "/media" },
     { name: "About Us", link: "/about" },
-    { name: "Packages", link: "/packages" },
     { name: "Contacts", link: "/contact" },
+    { name: "Packages", link: "/packages" },
   ];
 
   return (
@@ -61,12 +61,12 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          {/* button */}
-          <Link to="/payment">
+          
+          <a href="/payment">
             <button className="lg:ml-8 hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white">
               Payment
             </button>
-          </Link>
+          </a>
         </ul>
       </div>
     </div>

@@ -5,7 +5,7 @@ const Media = () => {
     <div>
       <main className="overflow-hidden">
         <section className="bg-gray-800">
-          <div className="bg-[url('./img/movie-bg.jpeg')] bg-cover w-full h-full">
+          <div className="bg-[url('./img/movie.jpeg')] bg-cover w-full h-full">
             <div className="bg-gray-800 bg-opacity-70 h-full w-full px-4 py-14 lg:px-14 space-y-20 relative">
               <div className="default-container">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-10 lg:gap-0">

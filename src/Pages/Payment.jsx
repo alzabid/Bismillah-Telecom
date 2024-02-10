@@ -12,11 +12,7 @@ const Payment = () => {
     <div>
       <main className="overflow-hidden">
         {/* parallax */}
-        <Parallax
-          img={photo}
-          title="Payment at any time"
-          text=""
-        />
+        <Parallax img={photo} title="Payment at any time" text="" />
 
         <section className="py-12 lg:py-20">
           <div className="max-w-7xl mx-auto" id="about-us">
@@ -190,7 +186,7 @@ const Payment = () => {
               </div>
             </div>
             {/* Banks */}
-            <div className=" px-8 mt-28">
+            <div className=" px-6 mt-28">
               <h2 className="text-3xl font-bold">
                 Payment through <span className="text-sky-900">Bank</span>
               </h2>
@@ -214,40 +210,42 @@ const Payment = () => {
               </div>
             </div>
             {/* notice */}
-            <div
-              className="p-4 mb-4 mt-24 border border-yellow-300 rounded-lg bg-yellow-50 dark:bg-yellow-200 text-anim2"
-              role="alert"
-            >
-              <div className="flex items-center">
-                <svg
-                  aria-hidden="true"
-                  className="w-5 h-5 mr-2 text-yellow-700 dark:text-yellow-800"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <span className="sr-only">Info</span>
-                <h3 className="text-lg font-medium text-yellow-700 dark:text-yellow-800">
-                  Notice:
-                </h3>
-              </div>
-              <div className="mt-2 mb-4 text-base text-yellow-700 dark:text-yellow-800">
-                If you don't able to make payment online, please contact us. Our
-                support team will help you to pay your bill.
-              </div>
-              <div className="flex">
-                <Link
-                  to="/contact"
-                  className="text-yellow-700 bg-transparent border border-yellow-700 hover:bg-yellow-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-base px-3 py-2 text-center dark:border-yellow-800 dark:text-yellow-800 dark:hover:text-white"
-                >
-                  Contact Us
-                </Link>
+            <div className="px-6">
+              <div
+                className="p-4 mb-4 mt-24 border border-yellow-300 rounded-lg bg-yellow-50 dark:bg-yellow-200 text-anim2"
+                role="alert"
+              >
+                <div className="flex items-center">
+                  <svg
+                    aria-hidden="true"
+                    className="w-5 h-5 mr-2 text-yellow-700 dark:text-yellow-800"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span className="sr-only">Info</span>
+                  <h3 className="text-lg font-medium text-yellow-700 dark:text-yellow-800">
+                    Notice:
+                  </h3>
+                </div>
+                <div className="mt-2 mb-4 text-base text-yellow-700 dark:text-yellow-800">
+                  If you don't able to make payment online, please contact us.
+                  Our support team will help you to pay your bill.
+                </div>
+                <div className="flex">
+                  <Link
+                    to="/contact"
+                    className="text-yellow-700 bg-transparent border border-yellow-700 hover:bg-yellow-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-base px-3 py-2 text-center dark:border-yellow-800 dark:text-yellow-800 dark:hover:text-white"
+                  >
+                    Contact Us
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

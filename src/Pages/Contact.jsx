@@ -49,7 +49,7 @@ const Contact = () => {
                         Location
                       </h2>
                       <p className="text-content-dark text-gray-700 group-hover:text-white">
-                        29, Alta Plaze, House # 01,Road # 10, Dhanmondi,Dhaka
+                        চ-৬৬, উত্তর বাড্ডা,গুলশান-১২১২
                       </p>
                     </div>
                   </div>
@@ -81,7 +81,7 @@ const Contact = () => {
                         Phone
                       </h2>
                       <p className="text-content-dark text-gray-700 group-hover:text-white">
-                        +8801958404404
+                        +8801645756860
                       </p>
                     </div>
                   </div>
@@ -113,7 +113,7 @@ const Contact = () => {
                         Email Us
                       </h2>
                       <p className="text-content-dark text-gray-700 group-hover:text-white">
-                        xplorenet1@gmail.com
+                        bismillahtelecom10@gmail.com
                       </p>
                     </div>
                   </div>
@@ -145,7 +145,7 @@ const Contact = () => {
                         Working Hour
                       </h2>
                       <p className="text-content-dark text-gray-700 group-hover:text-white">
-                        10:00 - 06:00
+                        10:00 am - 10:00 pm
                       </p>
                     </div>
                   </div>
@@ -162,7 +162,7 @@ const Contact = () => {
               <div className="col-span-1 h-72 lg:pl-5 lg:h-full relative order-2 lg:order-1">
                 <div className="flex justify-center lg:pb-5 ">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467420.3030962046!2d90.12035070011363!3d23.75732241499096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b7de0e452d%3A0xeec73914cc53b887!2sCity%20College%20Bus%20Stop!5e0!3m2!1sen!2sbd!4v1705582640087!5m2!1sen!2sbd"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58417.84232591457!2d90.37397118105747!3d23.778913701603617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7988c32bc7f%3A0x4c9a155d0e628033!2s32%20Rd%20123%2C%20Dhaka%201212!5e0!3m2!1sen!2sbd!4v1707543375866!5m2!1sen!2sbd"
                     width="600"
                     height="650"
                     style={{ border: 0 }}
